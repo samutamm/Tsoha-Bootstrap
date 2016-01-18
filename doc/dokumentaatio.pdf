@@ -1,0 +1,9 @@
+Sovelluksen tarkoitus on välittää vuokra-asuntoja. Järjestelmään voivat kirjautua asuntoja välittävän yrityksen työntekijät ja asiakkaat.
+Asiakkaat tarkastelevat tarjontaa ja tekevät sopimuksia. Työntekijät lisäävät asuntoja ja hallinnoivat sopimuksiin ja asiakastapaamisiin
+liittyvissä asioissa.
+
+Sovellus tulee pyörimään osittain laitoksen users-palvelimilla sekä osittain Herokussa tai Google App Enginessä.
+Sovelluksen arkkitehtuuri on osittain mikroarkkitehtuurin/SOA mukainen: yhden monoliittisen komponentin sijaan eri toiminnot
+pyörivät eri palvelin-instansseissa. Ainakin autentikaatio eriytetään omaksi palvelukseen.
+
+Palvelimet kirjoitetaan PHP:llä, selain käyttöliittymä JavaScriptillä(ReactJS).
